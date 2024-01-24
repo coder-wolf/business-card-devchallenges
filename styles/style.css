@@ -14,7 +14,8 @@ img {
 .container {
   display: flex;
   justify-content: center;
-  /* margin: 20px; */
+  align-items: center;
+  height: 100vh;
   padding: 20px;
 }
 .business-card {
