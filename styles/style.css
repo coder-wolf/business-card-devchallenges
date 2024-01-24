@@ -1,0 +1,112 @@
+/* --- 0. Global Styles --- */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+body {
+  background-color: #f2f5f9;
+  /* margin: auto; */
+}
+
+img {
+  width: 100%;
+}
+
+/* --- 1. Business Card Global Design --- */
+.container {
+  display: flex;
+  justify-content: center;
+  /* margin: 20px; */
+  padding: 20px;
+}
+.business-card {
+  width: 426.6666666667px;
+  /* margin: auto; */
+  background-color: #ffffff;
+  border-radius: 13px;
+}
+
+.divider {
+  border: 0.1px solid gainsboro;
+  margin-top: 30px;
+}
+
+/* --- 2. Banner Image --- */
+.banner-image-background {
+  border-radius: 13px 13px 0 0;
+}
+.banner-image {
+  position: relative;
+}
+
+.banner-image-background {
+  position: relative;
+  width: 426.6666666667px;
+}
+
+.banner-image-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 426.6666666667px;
+}
+
+/* --- 3. Info Section - title & subtitle --- */
+.info-area {
+  /* margin: 40px; */
+  /* padding: 20px; */
+}
+
+.title,
+.subtitle {
+  margin: 20px 35px;
+}
+.profile-card {
+  margin: 10px 35px;
+}
+.title {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 400;
+}
+.subtitle {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  color: #667489;
+}
+
+/* --- 4 Person Info Section --- */
+.profile-card {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  padding: 20px 0;
+}
+
+.name {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 600;
+}
+.job-title {
+  font-family: Lato;
+  font-size: 12px;
+  color: gray;
+}
+
+.profile-avatar {
+  width: 37px;
+  border-radius: 30px;
+  background-color: #f3f5f9;
+  padding: 4px;
+}
+
+.name,
+.job-title {
+  margin: 0;
+}
+
+/* Responsive Design */
+
+/* Mobile */
+
+@media screen and (max-width: 640px) {
+}
